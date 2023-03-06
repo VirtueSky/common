@@ -2,11 +2,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
-using Virtuesky.common.pattern;
-using Virtuesky.common.UI;
+using Virtuesky.common;
+using Virtuesky.common;
 using Debug = System.Diagnostics.Debug;
 
-namespace Virtuesky.common.manager
+namespace Virtuesky.common
 {
     public class PopupManager : Singleton<PopupManager>
     {

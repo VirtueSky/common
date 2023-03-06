@@ -1,8 +1,8 @@
 using System;
 using UnityEngine;
-using Virtuesky.common.manager;
+using Virtuesky.common;
 
-namespace Virtuesky.common.General
+namespace Virtuesky.common
 {
     public static partial class Data
     {

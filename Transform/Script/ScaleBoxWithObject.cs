@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Virtuesky.common.transform
+namespace Virtuesky.common
 {
     public class ScaleBoxWithObject : MonoBehaviour
     {

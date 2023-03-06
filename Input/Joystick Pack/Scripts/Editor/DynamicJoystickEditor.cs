@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Virtuesky.common.input
+namespace Virtuesky.common
 {
     [CustomEditor(typeof(DynamicJoystick))]
     public class DynamicJoystickEditor : JoystickEditor

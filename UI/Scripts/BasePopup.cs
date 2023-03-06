@@ -1,8 +1,10 @@
+using System;
 using DG.Tweening;
+using DG.Tweening.Core;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
-namespace Virtuesky.common.UI
+namespace Virtuesky.common
 {
     public class BasePopup : MonoBehaviour
     {
@@ -14,8 +16,9 @@ namespace Virtuesky.common.UI
         [ShowIf("UseShowAnimation")] public ShowAnimationType ShowAnimationType;
         [ShowIf("UseAnimation")] public bool UseHideAnimation;
         [ShowIf("UseHideAnimation")] public HideAnimationType HideAnimationType;
-        public CanvasGroup CvGroup => GetComponent<CanvasGroup>();
+        public CanvasGroup canvasGroup => GetComponent<CanvasGroup>();
         public Canvas Canvas => GetComponent<Canvas>();
+
 
         public virtual void Show()
         {
@@ -60,9 +63,9 @@ namespace Virtuesky.common.UI
                             }));
                         break;
                     case HideAnimationType.Fade:
-                        // CvGroup.DOFade(0, durationPopup).OnComplete(() =>
+                        // canvasGroup.DOFade(0, durationPopup).OnComplete(() =>
                         // {
-                        //     CvGroup.alpha = 1;
+                        //     canvasGroup.alpha = 1;
                         //     gameObject.SetActive(false);
                         //     AfterHidden();
                         // });

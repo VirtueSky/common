@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Virtuesky.common.General
+namespace Virtuesky.common
 {
     public class EffectAppear : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Virtuesky.common.input
+namespace Virtuesky.common
 {
     public class JoystickPlayerExample : MonoBehaviour
     {

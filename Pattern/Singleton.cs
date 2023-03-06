@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Virtuesky.common.pattern
+namespace Virtuesky.common
 {
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Virtuesky.common.manager
+namespace Virtuesky.common
 {
     public static partial class EventManager
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Virtuesky.common.General.Crystal
+namespace Virtuesky.common.Crystal
 {
     /// <summary>
     /// Safe area implementation for notched mobile devices. Usage:

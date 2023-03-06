@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 using Sirenix.Utilities;
 using UnityEngine;
 
-namespace Virtuesky.common.transform
+namespace Virtuesky.common
 {
     public class MoveObject : MonoBehaviour
     {
