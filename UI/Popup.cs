@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-using DG.Tweening;
-using Sirenix.OdinInspector;
+﻿using DG.Tweening;
 using UnityEngine;
 
 namespace Virtuesky.common
@@ -50,12 +48,13 @@ namespace Virtuesky.common
                             }));
                         break;
                     case HideAnimationType.Fade:
-                        canvasGroup.DOFade(0, durationPopup).OnComplete(() =>
-                        {
-                            canvasGroup.alpha = 1;
-                            gameObject.SetActive(false);
-                            AfterHidden();
-                        });
+                        // canvasGroup.DOFade(0, durationPopup).OnComplete(() =>
+                        // {
+                        //     canvasGroup.alpha = 1;
+                        //     gameObject.SetActive(false);
+                        //     AfterHidden();
+                        // });
+                        AfterHidden();
                         break;
                 }
             }
