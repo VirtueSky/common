@@ -1,26 +1,13 @@
-using System;
+﻿using System.ComponentModel;
 using DG.Tweening;
-using DG.Tweening.Core;
-using UnityEngine;
 using Sirenix.OdinInspector;
+using UnityEngine;
 
 namespace Virtuesky.common
 {
-    public class BasePopup : MonoBehaviour
+    public class Popup : BasePopup
     {
-        public bool UseAnimation;
-        [ShowIf(nameof(UseAnimation), true)] public float durationPopup = 1.0f;
-        [ShowIf("UseAnimation")] public GameObject Background;
-        [ShowIf("UseAnimation")] public GameObject Container;
-        [ShowIf("UseAnimation")] public bool UseShowAnimation;
-        [ShowIf("UseShowAnimation")] public ShowAnimationType ShowAnimationType;
-        [ShowIf("UseAnimation")] public bool UseHideAnimation;
-        [ShowIf("UseHideAnimation")] public HideAnimationType HideAnimationType;
-        public CanvasGroup canvasGroup => GetComponent<CanvasGroup>();
-        public Canvas Canvas => GetComponent<Canvas>();
-
-
-        public virtual void Show()
+        public override void Show()
         {
             BeforeShow();
             gameObject.SetActive(true);
@@ -46,7 +33,7 @@ namespace Virtuesky.common
             }
         }
 
-        public virtual void Hide()
+        public override void Hide()
         {
             BeforeHide();
             if (UseHideAnimation)
@@ -63,12 +50,12 @@ namespace Virtuesky.common
                             }));
                         break;
                     case HideAnimationType.Fade:
-                        // canvasGroup.DOFade(0, durationPopup).OnComplete(() =>
-                        // {
-                        //     canvasGroup.alpha = 1;
-                        //     gameObject.SetActive(false);
-                        //     AfterHidden();
-                        // });
+                        canvasGroup.DOFade(0, durationPopup).OnComplete(() =>
+                        {
+                            canvasGroup.alpha = 1;
+                            gameObject.SetActive(false);
+                            AfterHidden();
+                        });
                         break;
                 }
             }
@@ -78,37 +65,5 @@ namespace Virtuesky.common
                 AfterHidden();
             }
         }
-
-        protected virtual void AfterInstantiate()
-        {
-        }
-
-        protected virtual void BeforeShow()
-        {
-        }
-
-        protected virtual void AfterShown()
-        {
-        }
-
-        protected virtual void BeforeHide()
-        {
-        }
-
-        protected virtual void AfterHidden()
-        {
-        }
-    }
-
-    public enum ShowAnimationType
-    {
-        OutBack,
-        Flip,
-    }
-
-    public enum HideAnimationType
-    {
-        InBack,
-        Fade,
     }
 }

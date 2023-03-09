@@ -2,8 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
-using Virtuesky.common;
-using Virtuesky.common;
 using Debug = System.Diagnostics.Debug;
 
 namespace Virtuesky.common
@@ -12,9 +10,9 @@ namespace Virtuesky.common
     {
         public Transform canvasTransform;
         public CanvasScaler canvasScaler;
-        public List<BasePopup> popups;
+        public List<Popup> popups;
 
-        private readonly Dictionary<Type, BasePopup> _dictionary = new Dictionary<Type, BasePopup>();
+        private readonly Dictionary<Type, Popup> _dictionary = new Dictionary<Type, Popup>();
 
         protected override void Awake()
         {
@@ -31,7 +29,7 @@ namespace Virtuesky.common
             int index = 0;
             popups.ForEach(popup =>
             {
-                BasePopup popupInstance = Instantiate(popup, canvasTransform);
+                Popup popupInstance = Instantiate(popup, canvasTransform);
                 popupInstance.gameObject.SetActive(false);
                 popupInstance.Canvas.sortingOrder = index++;
                 _dictionary.Add(popupInstance.GetType(), popupInstance);
@@ -40,7 +38,7 @@ namespace Virtuesky.common
 
         public void Show<T>()
         {
-            if (_dictionary.TryGetValue(typeof(T), out BasePopup popup))
+            if (_dictionary.TryGetValue(typeof(T), out Popup popup))
             {
                 if (!popup.isActiveAndEnabled)
                 {
@@ -51,7 +49,7 @@ namespace Virtuesky.common
 
         public void Hide<T>()
         {
-            if (_dictionary.TryGetValue(typeof(T), out BasePopup popup))
+            if (_dictionary.TryGetValue(typeof(T), out Popup popup))
             {
                 if (popup.isActiveAndEnabled)
                 {
@@ -62,7 +60,7 @@ namespace Virtuesky.common
 
         public void HideAll()
         {
-            foreach (BasePopup item in _dictionary.Values)
+            foreach (Popup item in _dictionary.Values)
             {
                 if (item.isActiveAndEnabled)
                 {
@@ -71,9 +69,9 @@ namespace Virtuesky.common
             }
         }
 
-        public BasePopup Get<T>()
+        public Popup Get<T>()
         {
-            if (_dictionary.TryGetValue(typeof(T), out BasePopup popup))
+            if (_dictionary.TryGetValue(typeof(T), out Popup popup))
             {
                 return popup;
             }
