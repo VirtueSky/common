@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class FixedJoystick : Joystick
     {

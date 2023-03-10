@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class RotateObject : MonoBehaviour
     {

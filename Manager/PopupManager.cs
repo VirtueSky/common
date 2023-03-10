@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine.UI;
 using Debug = System.Diagnostics.Debug;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class PopupManager : Singleton<PopupManager>
     {

@@ -2,7 +2,7 @@ using DG.Tweening;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class UIEffect : MonoBehaviour
     {

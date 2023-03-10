@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public static class Utility
     {

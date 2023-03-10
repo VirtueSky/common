@@ -1,8 +1,8 @@
 using System;
 using UnityEngine;
-using Virtuesky.common;
 
-namespace Virtuesky.common
+
+namespace Virtuesky
 {
     public static partial class Data
     {

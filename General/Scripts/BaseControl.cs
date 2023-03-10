@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class BaseControl : EditorWindow
     {

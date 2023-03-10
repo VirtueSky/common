@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class CurrencyCounter : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public partial class Constant
     {

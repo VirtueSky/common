@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class SingletonDontDestroyOnLoad<T> : MonoBehaviour where T : MonoBehaviour
     {

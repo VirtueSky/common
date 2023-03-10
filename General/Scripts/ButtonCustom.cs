@@ -3,9 +3,9 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using Virtuesky.common;
 
-namespace Virtuesky.common
+
+namespace Virtuesky
 {
     public class ButtonCustom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler,
         IPointerExitHandler

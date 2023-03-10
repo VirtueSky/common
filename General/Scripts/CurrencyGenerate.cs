@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 
-namespace Virtuesky.common
+namespace Virtuesky
 {
     public class CurrencyGenerate : MonoBehaviour
     {
