@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to constrain the current <b>transform.localPosition</b> or <b>transform.anchoredPosition3D</b> to the specified min/max values.</summary>
 	[DefaultExecutionOrder(200)]
@@ -100,7 +100,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanConstrainLocalPosition;

@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This script moves the ball left or right and resets it if it goes out of bounds.</summary>
 	[RequireComponent(typeof(Rigidbody2D))]
@@ -74,7 +74,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanPongBall;

@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to store 1, 2, or 3 values. This is done by calling one of the <b>SetX/Y/Z</b> or <b>IncX/Y/Z</b> methods, and then sending it out using the <b>OnValueX/Y/Z</b> events.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanValue")]
@@ -89,7 +89,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanValue;

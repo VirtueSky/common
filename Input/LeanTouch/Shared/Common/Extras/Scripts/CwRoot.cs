@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>If your scene is massive, then you can add this component to an empty GameObject. Any components that support this feature will add GameObjects to this as children and transform them in a way that makes them render properly using a floating origin system.</summary>
 	[ExecuteInEditMode]
@@ -61,7 +61,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwRoot;

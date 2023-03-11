@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component stores a list of points that form a path.</summary>
 	[ExecuteInEditMode]

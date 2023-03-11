@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component will swap the target GameObject with one of the specified prefabs when swiping.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanSwap")]
@@ -97,7 +97,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSwap;

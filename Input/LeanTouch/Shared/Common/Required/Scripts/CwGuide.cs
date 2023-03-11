@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This class defines documentation data that can be viewed in the inspector.</summary>
 	public class CwGuide : ScriptableObject
@@ -55,7 +55,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwGuide;

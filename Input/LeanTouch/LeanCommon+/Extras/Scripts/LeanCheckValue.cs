@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component checks if the specified <b>LeanValue</b> component's <b>X</b>, <b>Y</b>, or <b>Z</b> value is within the specified range. If so, it will invoke an event, allowing you to perform a custom action.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanCheckValue")]
@@ -61,7 +61,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanCheckValue;

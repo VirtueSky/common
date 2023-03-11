@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to convert 1, 2, or 3 values from one range to another. For example, an angle in the range of -90..90 could be converted to 0..1. This is done by calling one of the <b>SetX/Y/Z</b> methods, and then sending it out using the <b>OnValueX/Y/Z</b> events.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanRemapValue")]
@@ -120,7 +120,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanRemapValue;

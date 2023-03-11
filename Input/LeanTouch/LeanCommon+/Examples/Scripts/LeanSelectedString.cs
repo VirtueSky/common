@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to display text showing the currently selected object count.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanSelectedText")]
@@ -69,7 +69,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSelectedString;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component allows you to freely rotate the current GameObject using local rotations.</summary>
 	[HelpURL(CwShared.HelpUrlPrefix + "CwCameraLook")]
@@ -95,7 +95,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwCameraLook;

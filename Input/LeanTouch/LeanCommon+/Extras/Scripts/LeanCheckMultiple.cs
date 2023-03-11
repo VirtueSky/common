@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component checks if the specified <b>LeanCheck</b> components are matched, allowing you to perform a custom action.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanCheckMultiple")]
@@ -53,7 +53,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanCheckMultiple;

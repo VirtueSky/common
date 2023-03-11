@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This makes the current <b>Transform</b> follow the <b>Target</b> Transform as if it were a child.</summary>
 	[ExecuteInEditMode]
@@ -102,7 +102,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwFollow;

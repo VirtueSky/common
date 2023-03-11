@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to load the specified scene when you manually call the <b>Load</b> method.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanLoadScene")]
@@ -39,7 +39,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanLoadScene;

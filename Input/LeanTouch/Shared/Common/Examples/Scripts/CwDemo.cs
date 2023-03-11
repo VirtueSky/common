@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component is used by all the demo scenes to perform common tasks. Including modifying the current scene to make it look consistent between different rendering pipelines.</summary>
 	[ExecuteInEditMode]
@@ -184,7 +184,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwDemo;

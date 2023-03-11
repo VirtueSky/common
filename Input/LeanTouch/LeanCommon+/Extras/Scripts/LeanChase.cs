@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component causes the current Transform to chase the specified position.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanChase")]
@@ -107,7 +107,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanChase;

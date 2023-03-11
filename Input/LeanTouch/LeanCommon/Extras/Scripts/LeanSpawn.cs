@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to spawn a prefab at the specified world point.
 	/// NOTE: For this component to work you must manually call the <b>Spawn</b> method from somewhere.</summary>
@@ -52,7 +52,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSpawn;

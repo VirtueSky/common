@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component allows you to rotate the current GameObject using local Euler rotations, allowing you to create a typical FPS camera system, or orbital camera system.</summary>
 	[HelpURL(CwShared.HelpUrlPrefix + "CwCameraPivot")]
@@ -67,7 +67,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwCameraPivot;

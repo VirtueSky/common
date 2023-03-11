@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component allows you to control a Camera component's depthTextureMode setting.</summary>
 	[ExecuteInEditMode]
@@ -31,7 +31,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwDepthTextureMode;

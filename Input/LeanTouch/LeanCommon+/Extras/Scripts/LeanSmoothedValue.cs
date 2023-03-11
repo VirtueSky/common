@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to smooth a value that is sent to a component. This is done by first passing the value to this component using one of the <b>SetX/Y/Z</b> methods, and then sending it out after smoothing using the <b>OnValueX/Y/Z</b> events.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanSmoothedValue")]
@@ -147,7 +147,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSmoothedValue;

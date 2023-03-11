@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-using Lean.Common;
+using Virtuesky.Lean.Common;
 
 namespace Lean.Touch
 {

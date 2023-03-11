@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This is the base class for all object selectors.</summary>
 	[HelpURL(LeanCommon.HelpUrlPrefix + "LeanSelect")]
@@ -289,7 +289,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSelect;

@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This script allows you to drag this Rigidbody2D in a way that causes it to chase the specified position.</summary>
 	[RequireComponent(typeof(Rigidbody2D))]
@@ -84,7 +84,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanChaseRigidbody2D;

@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component stores information about a 3D plane. By default this plane lays on the XY axis, or faces the Z axis.</summary>
 	[HelpURL(LeanCommon.HelpUrlPrefix + "LeanPlane")]
@@ -155,7 +155,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanPlane;

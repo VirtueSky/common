@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
-using Lean.Common;
-using CW.Common;
+using Virtuesky.Lean.Common;
+using Virtuesky.CW.Common;
 
 namespace Lean.Touch
 {

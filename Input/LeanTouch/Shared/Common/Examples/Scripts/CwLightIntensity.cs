@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component will change the light intensity based on the current render pipeline.</summary>
 	[ExecuteInEditMode]
@@ -96,7 +96,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwLightIntensity;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component rotates the current <b>Transform</b>.</summary>
 	[HelpURL(CwShared.HelpUrlPrefix + "CwRotate")]
@@ -21,7 +21,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwRotate;

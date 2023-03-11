@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 using FSA = UnityEngine.Serialization.FormerlySerializedAsAttribute;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to detect when a specific amount of selectable objects in the scene have been selected.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanSelectedCount")]
@@ -93,7 +93,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSelectedCount;

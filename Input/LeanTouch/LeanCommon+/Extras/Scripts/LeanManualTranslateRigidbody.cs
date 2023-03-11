@@ -1,7 +1,7 @@
 using UnityEngine;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to translate the specified Rigidbody when you call methods like <b>TranslateA</b>, which can be done from events.</summary>
 	[HelpURL(LeanCommon.PlusHelpUrlPrefix + "LeanManualTranslateRigidbody")]
@@ -134,7 +134,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanManualTranslateRigidbody;

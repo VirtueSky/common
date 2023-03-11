@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to store the <b>Current</b> position. Once this differs from the <b>Previous</b> position by more than the <b>Threshold</b>, the <b>Previous</b> value will change to match <b>Current</b>, and the <b>OnPosition</b> events will fire with the current position.
 	/// This is useful for making more precise movements when using inaccurate touch inputs.</summary>
@@ -135,7 +135,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanThresholdPosition;

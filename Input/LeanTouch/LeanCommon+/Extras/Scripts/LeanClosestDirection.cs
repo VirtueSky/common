@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component will compare the direction of the current Transform against a list of Transforms, and tell you which is closest.</summary>
 	[DefaultExecutionOrder(200)]
@@ -128,7 +128,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanClosestDirection;

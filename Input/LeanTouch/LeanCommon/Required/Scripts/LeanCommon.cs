@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This class contains some useful methods used by this asset.</summary>
 	public static partial class LeanCommon
@@ -37,7 +37,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	using UnityEditor;
 

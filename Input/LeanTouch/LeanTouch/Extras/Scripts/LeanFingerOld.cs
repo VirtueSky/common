@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
-using Lean.Common;
-using CW.Common;
+using Virtuesky.Lean.Common;
+using Virtuesky.CW.Common;
 
 namespace Lean.Touch
 {

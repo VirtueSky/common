@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This asset stores multiple variants of a shader for different rendering pipelines, and allows you to switch between them in the editor.</summary>
 	//[CreateAssetMenu(fileName = "NewShaderBundle", menuName = "MakeShaderBundle", order = 1)]

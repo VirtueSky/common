@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to convert values like ints and floats into formatted text that can be shown in the UI. To use this component, simply call one of the <b>SetString</b> methods, and it will output the formatted string to the <b>OnString</b> event, which can be connected to UI text, etc.</b></summary>
 	[HelpURL(LeanCommon.HelpUrlPrefix + "LeanFormatString")]
@@ -121,7 +121,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanFormatString;

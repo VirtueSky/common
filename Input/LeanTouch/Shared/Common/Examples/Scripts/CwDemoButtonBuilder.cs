@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component allows you to quickly build a UI button to activate only this GameObject when clicked.</summary>
 	[HelpURL(CwShared.HelpUrlPrefix + "CwDemoButtonBuilder")]

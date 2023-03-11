@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component turns the current UI element into a button that links to the specified action.</summary>
 	[ExecuteInEditMode]
@@ -213,7 +213,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwDemoButton;

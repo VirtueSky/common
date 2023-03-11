@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This attribute can be added to any int field to make it a random seed value that can easily be randomized.</summary>
 	public class CwSeedAttribute : PropertyAttribute
@@ -9,7 +9,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 

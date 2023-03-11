@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This script will constrain the current transform.position to the specified colliders.
 	/// NOTE: If you're using a MeshCollider then it must be marked as <b>convex</b>.</summary>
@@ -64,7 +64,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanConstrainToColliders;

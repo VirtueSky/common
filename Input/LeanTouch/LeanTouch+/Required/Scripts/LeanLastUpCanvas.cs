@@ -1,5 +1,5 @@
 using UnityEngine;
-using Lean.Common;
+using Virtuesky.Lean.Common;
 
 namespace Lean.Touch
 {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This is the base class for all components that are created as children of another component, allowing them to be more easily managed.</summary>
 	public abstract class CwChild : MonoBehaviour

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
-using Lean.Common;
+using Virtuesky.Lean.Common;
 
 namespace Lean.Touch
 {
@@ -268,7 +268,7 @@ namespace Lean.Touch.Editor
 
 	[CanEditMultipleObjects]
 	[CustomEditor(typeof(TARGET))]
-	public class LeanSelectableByFinger_Editor : Common.Editor.LeanSelectable_Editor
+	public class LeanSelectableByFinger_Editor : Virtuesky.Lean.Common.Editor.LeanSelectable_Editor
 	{
 		[System.NonSerialized] TARGET tgt; [System.NonSerialized] TARGET[] tgts;
 

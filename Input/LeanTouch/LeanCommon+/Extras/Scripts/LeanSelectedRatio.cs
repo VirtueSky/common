@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
-using CW.Common;
+using Virtuesky.CW.Common;
 
-namespace Lean.Common
+namespace Virtuesky.Lean.Common
 {
 	/// <summary>This component allows you to display a number showing the current ratio of selected objects, where a value of 0 means nothing has been selected, and a value of 1 means everything has been selected.
 	/// This can be used with the UI Image Fill, as well as other components.</summary>
@@ -43,7 +43,7 @@ namespace Lean.Common
 }
 
 #if UNITY_EDITOR
-namespace Lean.Common.Editor
+namespace Virtuesky.Lean.Common.Editor
 {
 	using UnityEditor;
 	using TARGET = LeanSelectedRatio;

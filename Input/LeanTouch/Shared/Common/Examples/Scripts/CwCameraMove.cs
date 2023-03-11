@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	/// <summary>This component allows you to freely move the current GameObject based on mouse/finger drags.</summary>
 	[HelpURL(CwShared.HelpUrlPrefix + "CwCameraMove")]
@@ -83,7 +83,7 @@ namespace CW.Common
 }
 
 #if UNITY_EDITOR
-namespace CW.Common
+namespace Virtuesky.CW.Common
 {
 	using UnityEditor;
 	using TARGET = CwCameraMove;
