@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html style="margin: 0; padding: 0; height: 98%;" lang="en">
 <head>
 <title>Lean Common - Documentation - 2.0.0</title>
@@ -151,7 +151,7 @@ pre{ font-family: 'fira_monoregular'; line-height: 20px; font-size: 14px; color:
 <b></b>
 </h2>
 <p>You can manually call this method to destroy the specified GameObject immediately.</p>
-</div><br><br><br></div><div style="overflow:hidden;"><a name="LeanFormatString"></a><h2>LeanFormatString</h2><p>This component allows you to convert values like ints and floats into formatted text that can be shown in the UI. To use this component, simply call one of the <b>SetString</b> methods, and it will output the formatted string to the <b>OnString</b> event, which can be connected to UI text, etc.</b></p><div style="padding-left:75px;"><br>
+</div><br><br><br></div><div style="overflow:hidden;"><a name="LeanFormatString"></a><h2>LeanFormatString</h2><p>This component allows you to convert values like ints and floats into formatted text that can be shown in the UI. To use this component, simply call one of the <b>SetString</b> methods, and it will output the formatted string to the <b>OnString</b> event, which can be connected to UI text, etc.</p><div style="padding-left:75px;"><br>
 <h2>
 <b style="">string</b>
 <br>

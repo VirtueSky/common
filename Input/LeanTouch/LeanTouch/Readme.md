@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html style="margin: 0; padding: 0; height: 98%;" lang="en">
 <head>
 <title>Lean Touch - Documentation - 3.0.0</title>
