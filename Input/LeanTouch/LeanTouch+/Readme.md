@@ -1690,7 +1690,7 @@ pre{ font-family: 'fira_monoregular'; line-height: 20px; font-size: 14px; color:
 <br>
 <span style="">OnFingers</span>
 </h2>
-<p>This event is invoked when the requirements are met.</p><p>List<LeanFinger> = The fingers that are touching the screen.</p>
+<p>This event is invoked when the requirements are met.</p><p>List<LeanFinger> = The fingers that are touching the screen</LeanFinger></p>
 </div><br><div style="padding-left:75px;"><br>
 <h2>
 <b style="">CoordinateType</b>
